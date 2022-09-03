@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <title>Portfolio Project</title>
 </head>
+
 <body>
   <div class="container-fluid bg-primary">
     <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
@@ -47,9 +46,9 @@
       </p>
     </div>
     
-    <div class="container mw-100 d-flex justify-content-center mb-5">
+    <div class="container mb-5">
       <div class="row text-light">
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <ul class="list-unstyled">
             <li class="text-start"><h3>Languages</h3>
               <ul class="text-start list-unstyled">
@@ -62,7 +61,7 @@
           </ul>
         </div>
 
-        <div class="col ">
+        <div class="col d-flex justify-content-center">
           <ul class="list-unstyled">
             <li class="text-start"><h3>Frameworks</h3>
               <ul class="text-start list-unstyled">
@@ -76,7 +75,7 @@
           </ul>
         </div>
           
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <ul class="list-unstyled">
             <li class="text-start"><h3>Skills</h3>
               <ul class="text-start list-unstyled">
@@ -94,11 +93,11 @@
 
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <img src="/images/Element_right.png" alt="">
         </div>
   
-        <div class="col">
+        <div class="col-sm-6 d-flex justify-content-center mt-4">
           <span class="badge text-light"><img src="/images/one.png" alt=""></span>
           <span class="badge text-light"><img src="/images/Frame.png" alt=""></span>
           <span class="badge text-light"><img src="/images/three.png" alt=""></span>
@@ -106,13 +105,66 @@
           <span class="badge text-light"><img src="/images/five.png" alt=""></span>
          </div>
   
-        <div class="col">
+        <div class="col-sm-3 d-flex justify-content-center mt-4">
           <img src="/images/Element_right.png" alt="">
         </div>
       </div>
     </div>
+    <div class="container">
+      <h1 class="diplay-2 text-center text-light mt-5">
+        Let's chat!
+      </h1>
+      <p class="text-center text-light mt-4">
+        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+      </p>
+    </div>
+    
+    <div class="container">
+      <form action="" class="mt-4 mb-4 text-light was-validated">
+        <div>
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
 
+        <div>
+          <label for="validationTextarea" class="form-label">Textarea</label>
+          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-3 mx-auto">
+          <button type="submit" class="btn btn-secondary mb-5">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row text-light">
+        <div class="col d-flex justify-content-end">
+          <span class="badge text-light"><img src="/images/one.png" alt=""></span>
+          <span class="badge text-light"><img src="/images/Frame.png" alt=""></span>
+          <span class="badge text-light"><img src="/images/three.png" alt=""></span>
+          <span class="badge text-light"><img src="/images/four.png" alt=""></span>
+          <span class="badge text-light"><img src="/images/five.png" alt=""></span>
+         </div>
+
+        <div class="col mb-3">
+          <p class="">emailhere@gmail.com</p>
+        </div>
+      </div>
+    </div>
   </div>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
